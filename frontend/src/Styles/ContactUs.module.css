@@ -1,0 +1,67 @@
+.SubmitBtn{
+    opacity: 0.9;
+    box-sizing: content-box;
+    transition: all 0.3s ease;
+    width: 10em;
+    margin-top: 15px;
+    padding: 8px 0;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid antiquewhite;
+    background: linear-gradient(130deg, black 5%,indigo 70%, purple 110%, red 120% );
+}
+
+.hoverClass:hover{
+    transform: scalex(1.05);
+    opacity: 1;
+}
+
+
+.FooterDiv{
+    margin-top: 15px;
+    flex-direction: column;
+    /* font-size: 1.7rem; */
+    border-top: 1.5px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94vw;
+    padding: 3vh;
+}
+
+.FooterFont{
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.FooterEnd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw 3.5vw ;
+    margin-top: 30px;
+    font-size: 0.8rem;
+    width: 100vw;
+}
+
+@media only screen and (min-width : 800px){
+    .FooterFont{
+        width: 70vw;
+    }
+}
+
+
+@media only screen and (max-width : 800px){
+    .FooterEnd{
+        text-align: center;
+        flex-direction: column !important;
+        gap: 2px;
+        padding-top: 10px !important;
+    }
+    .SubmitBtn{
+        opacity:1
+    }
+    /* .SubmitBtn:hover{
+        transform: scalex(1.08);
+    } */
+}
