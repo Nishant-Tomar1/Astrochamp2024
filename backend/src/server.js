@@ -16,6 +16,7 @@ const app = express();
 //Configure express app
 app.use(json());
 app.use(cors());
+app.use(express.static("build"));
 
 //Connect to Database
 connectToDb()

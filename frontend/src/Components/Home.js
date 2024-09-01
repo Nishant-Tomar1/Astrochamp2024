@@ -9,12 +9,12 @@ import { Link } from 'react-router-dom';
 import { MdOutlineCamera } from "react-icons/md";
 import { FaLaptopCode } from "react-icons/fa6";
 import { IoTelescopeOutline } from "react-icons/io5";
-import webnd from "../Components/logos/webd.png";
+// import webnd from "../Components/logos/webd.png";
 import abhivyakti from "../Components/logos/abhivyakti.png"
 import panacea from "../Components/logos/panacea.png";
 import quizsoc from "../Components/logos/quizsoc.png";
 import neuro from "../Components/logos/neuro.png"
-import risc from "../Components/logos/risc.png"
+// import risc from "../Components/logos/risc.png"
 import febs from "../Components/logos/febs.png"
 const images = require.context("../Components/glimpses",true);
 const glimpses = images.keys().map(image => images(image));
@@ -245,12 +245,12 @@ function Home() {
 
 
     <div className="flex flex-wrap justify-center items-center gap-5 p-2 ">
-      <div className={Styles.logos} style={{borderRadius:"50% !important"}}><img src={webnd} alt="" /><p>WebnD Society</p></div>
+      {/* <div className={Styles.logos} style={{borderRadius:"50% !important"}}><img src={webnd} alt="" /><p>WebnD Society</p></div> */}
       <div className={Styles.logos}><img src={panacea} alt="" />Panacea</div>
       <div className={Styles.logos}><img src={abhivyakti} alt="" />अभिव्यक्ति</div>
       <div className={Styles.logos}><img src={quizsoc} alt="" />Quiz Society</div>
       <div className={Styles.logos}><img src={neuro} alt="" />NeuroMancers</div>
-      <div className={Styles.logos}><img src={risc} alt="" />RISC</div>
+      {/* <div className={Styles.logos}><img src={risc} alt="" />RISC</div> */}
       <div className={Styles.logos}><img src={febs} alt="" />FEBS</div> 
     </div>
     

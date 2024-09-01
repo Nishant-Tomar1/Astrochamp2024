@@ -44,7 +44,7 @@ function ContactUs() {
     });
     }, 500)
     
-    await axios.post("http://localhost:8000/api/v1/send-message", createForm);
+    await axios.post("https://astrochamp.onrender.com/api/v1/send-message", createForm);
 
   }catch(error){
     // console.log(error);

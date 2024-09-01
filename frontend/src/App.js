@@ -5,14 +5,14 @@ import Events from './Components/Events';
 import Team from './Components/Team';
 import ContactUs from './Components/ContactUs';
 import { AnimatePresence } from 'framer-motion';
-import { BrowserRouter as Router, Routes, Route, useLocation} from 'react-router-dom';
+import { Routes, Route, useLocation, HashRouter} from 'react-router-dom';
 
 
 function App() {
   return (
-    <Router basename={"/"}>
+    <HashRouter basename={"/"}>
       <Routefunction/>
-    </Router>
+    </HashRouter>
   )
 }
 
