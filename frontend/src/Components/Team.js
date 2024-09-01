@@ -71,70 +71,8 @@ const variant1 = {
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-center justify-center text-center sm:text-left">
           <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[9]}></img>
           <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-xl text-orange-500">Doddi Bhavya</h2>
-            <h3 className="text-gray-500 mb-3 text-lg">Secretary</h3>
-            <span className="inline-flex text-white text-lg gap-2">
-              <a href='https://www.instagram.com/bhavya__0901' target='#'><FaInstagram /></a>
-              <a href='https://www.linkedin.com/in/bhavya-doddi-993b60255' target='#'><FaLinkedinIn /></a>
-            </span>
-          </div>
-        </div>
-      </div>
-
-
-      <div className="p-4 lg:w-1/2">
-        <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[18]} ></img>
-          <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-xl text-orange-500">A.V Sai Santosh</h2>
-            <h3 className="text-gray-500 mb-3 text-lg">Governor</h3>
-            <span className="inline-flex text-white text-lg gap-2">
-              <a href='https://www.instagram.com/aguru_santosh_official' target='#'><FaInstagram /></a>
-              <a href='https://www.linkedin.com/in/aguru-venkata-saisantosh-patnaik-1b7393239' target="#"><FaLinkedinIn /></a>
-            </span>
-          </div>
-        </div>
-      </div>
-
-
-      <div className="p-4 lg:w-1/2">
-        <div className="h-full flex sm:flex-row flex-col items-center sm:justify-center justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[7]}></img>
-          <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-xl text-orange-500">Akshat Burman</h2>
-            <h3 className="text-gray-500 mb-3 text-lg">Governor</h3>
-            <span className="inline-flex text-white text-lg gap-2">
-              <a href='https://www.instagram.com/akshatvon.braun/' target='#'><FaInstagram /></a>
-              <a href='https://www.linkedin.com/in/akshat-burman' target='#'><FaLinkedinIn /></a>
-            </span>
-          </div>
-        </div>
-  </div>
-
-  <div className="p-4 lg:w-1/2">
-        <div className="h-full flex sm:flex-row flex-col items-center sm:justify-center justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[14]}></img>
-          <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-xl text-orange-500">Mubbashir Akhtar</h2>
-            <h3 className="text-gray-500 mb-3 text-lg">Governor</h3>
-            <span className="inline-flex text-white text-lg gap-2">
-              <a href='https://www.instagram.com/mubasshir_akhtar' target='#'><FaInstagram /></a>
-              <a href='https://www.linkedin.com/in/mubasshir-akhtar/'  target='#'><FaLinkedinIn /></a>
-            </span>
-          </div>
-        </div>
-      </div>
-
-
-      
-
-
-      <div className="p-4 lg:w-1/2">
-        <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[13]} ></img>
-          <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-xl text-orange-500">Het Sarsava</h2>
-            <h3 className="text-gray-500 mb-3 text-lg">Galactic Events Manager</h3>
+            <h3 className="text-gray-500 mb-3 text-lg">Secretary</h3>
             <span className="inline-flex text-white text-lg gap-2">
               <a href='https://www.instagram.com/hetsarsava' target='#'><FaInstagram /></a>
               <a href='https://www.linkedin.com/in/het-sarsava-3982a5260' target='#'><FaLinkedinIn /></a>
@@ -146,13 +84,13 @@ const variant1 = {
 
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[12]} />
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[18]} ></img>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-xl text-orange-500">Harsh Sharma</h2>
-            <h3 className="text-gray-500 mb-3 text-lg">Cosmic Operations Director</h3>
+            <h3 className="text-gray-500 mb-3 text-lg">Governor</h3>
             <span className="inline-flex text-white text-lg gap-2">
               <a href='https://www.instagram.com/harshsharma_.26' target='#'><FaInstagram /></a>
-              <a href='https://www.linkedin.com/in/harsh-sharma-54554a232' target='#'><FaLinkedinIn /></a>
+              <a href='https://www.linkedin.com/in/harsh-sharma-54554a232' target="#"><FaLinkedinIn /></a>
             </span>
           </div>
         </div>
@@ -160,30 +98,44 @@ const variant1 = {
 
 
       <div className="p-4 lg:w-1/2">
-        <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[16]}></img>
+        <div className="h-full flex sm:flex-row flex-col items-center sm:justify-center justify-center text-center sm:text-left">
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[7]}></img>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-xl text-orange-500">Nishant Tomar</h2>
-            <h3 className="text-gray-500 mb-3 text-lg">Interstellar Management Chief</h3>
+            <h3 className="text-gray-500 mb-3 text-lg">Governor</h3>
             <span className="inline-flex text-white text-lg gap-2">
               <a href='https://www.instagram.com/myself_nishant' target='#'><FaInstagram /></a>
               <a href='https://www.linkedin.com/in/nishant-tomar-7694aa2aa/' target='#'><FaLinkedinIn /></a>
             </span>
           </div>
         </div>
+  </div>
+
+  <div className="p-4 lg:w-1/2">
+        <div className="h-full flex sm:flex-row flex-col items-center sm:justify-center justify-center text-center sm:text-left">
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[14]}></img>
+          <div className="flex-grow sm:pl-8">
+            <h2 className="title-font font-medium text-xl text-orange-500">Doddi Bhavya</h2>
+            <h3 className="text-gray-500 mb-3 text-lg">Governor</h3>
+            <span className="inline-flex text-white text-lg gap-2">
+              <a href='https://www.instagram.com/bhavya__0901' target='#'><FaInstagram /></a>
+              <a href='https://www.linkedin.com/in/bhavya-doddi-993b60255'  target='#'><FaLinkedinIn /></a>
+            </span>
+          </div>
+        </div>
       </div>
 
-
+      
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[22]}></img>
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[13]} ></img>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-xl text-orange-500">Yash Goyal</h2>
-            <h3 className="text-gray-500 mb-3 text-lg">Celestial Promotions Manager</h3>
+            <h3 className="text-gray-500 mb-3 text-lg">Events Manager</h3>
             <span className="inline-flex text-white text-lg gap-2">
               <a href='https://www.instagram.com/_im_ag_ine' target='#'><FaInstagram /></a>
               <a href='https://www.linkedin.com/in/yash-goyal-686405294' target='#'><FaLinkedinIn /></a>
-              </span>
+            </span>
           </div>
         </div>
       </div>
@@ -193,11 +145,11 @@ const variant1 = {
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
           <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[19]} ></img>
           <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-xl text-orange-500">Sharath Kumar</h2>
-            <h3 className="text-gray-500 mb-3 text-lg">Core Squad</h3>
+            <h2 className="title-font font-medium text-xl text-orange-500">Spandan Satapathy</h2>
+            <h3 className="text-gray-500 mb-3 text-lg">POC : Space Quiz</h3>
             <span className="inline-flex text-white text-lg gap-2">
-              <a href='https://www.instagram.com/sharathkumarbakam' target='#'><FaInstagram /></a>
-              <a href='https://www.linkedin.com/in/sharath-kumar-bakam-936823262' target='#'><FaLinkedinIn /></a>
+              <a href='' target='#'><FaInstagram /></a>
+              <a href='' target='#'><FaLinkedinIn /></a>
             </span>
           </div>
         </div>
@@ -210,8 +162,50 @@ const variant1 = {
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
           <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[10]}></img>
           <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-xl text-orange-500">Bibhushree Mahapatra</h2>
-            <h3 className="text-gray-500 mb-3 text-lg">Promotions Manager</h3>
+            <h2 className="title-font font-medium text-xl text-orange-500">Yuvraj Singh</h2>
+            <h3 className="text-gray-500 mb-3 text-lg">POC : Asteroid Venture</h3>
+            <span className="inline-flex text-white text-lg gap-2">
+              <a href='https://www.instagram.com/yuvee_53' target='#'><FaInstagram /></a>
+              <a href='https://www.linkedin.com/in/yuvee1907' target='#'><FaLinkedinIn /></a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div className="p-4 lg:w-1/2">
+        <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[17]}></img>
+          <div className="flex-grow sm:pl-8">
+            <h2 className="title-font font-medium text-xl text-orange-500">Sudhanshu Jha</h2>
+            <h3 className="text-gray-500 mb-3 text-lg">POC : Blast Off</h3>
+            <span className="inline-flex text-white text-lg gap-2">
+              <a href='https://www.instagram.com/sudhanshujha624/' target='#'><FaInstagram /></a>
+              <a href='https://www.linkedin.com/in/sudhanshu-jha-4507a4288/' target='#'><FaLinkedinIn /></a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div className="p-4 lg:w-1/2">
+        <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[20]}></img>
+          <div className="flex-grow sm:pl-8">
+            <h2 className="title-font font-medium text-xl text-orange-500">Piyush Kashyap</h2>
+            <h3 className="text-gray-500 mb-3 text-lg">POC : Starborn Sagas</h3>
+            <span className="inline-flex text-white text-lg gap-2">
+              <a href='https://www.instagram.com/piyushkashyap650' target='#'><FaInstagram /></a>
+              <a href='https://www.linkedin.com/in/piyush-kashyap-73a5692a6' target='#'><FaLinkedinIn /></a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div className="p-4 lg:w-1/2">
+        <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[10]}></img>
+          <div className="flex-grow sm:pl-8">
+            <h2 className="title-font font-medium text-xl text-orange-500">Ramya Sri Vanjarapu</h2>
+            <h3 className="text-gray-500 mb-3 text-lg">POC : Competitive Programming</h3>
             <span className="inline-flex text-white text-lg gap-2">
               <a href='https://www.instagram.com/_kumaneko24' target='#'><FaInstagram /></a>
               <a href='https://www.linkedin.com/in/bibhushree-mahapatra-935a63258' target='#'><FaLinkedinIn /></a>
@@ -224,25 +218,11 @@ const variant1 = {
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
           <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[17]}></img>
           <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-xl text-orange-500">Nobel Das</h2>
-            <h3 className="text-gray-500 mb-3 text-lg">Core Squad</h3>
+            <h2 className="title-font font-medium text-xl text-orange-500">Kunal</h2>
+            <h3 className="text-gray-500 mb-3 text-lg">POC : Math-O-Stellar</h3>
             <span className="inline-flex text-white text-lg gap-2">
               <a href='https://www.instagram.com/nobel_das' target='#'><FaInstagram /></a>
               <a href='https://www.linkedin.com/in/nobel-das-2a74a828b' target='#'><FaLinkedinIn /></a>
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <div className="p-4 lg:w-1/2">
-        <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[20]}></img>
-          <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-xl text-orange-500">Vikas Maurya</h2>
-            <h3 className="text-gray-500 mb-3 text-lg">Core Squad</h3>
-            <span className="inline-flex text-white text-lg gap-2">
-              <a href='https://www.instagram.com/stardust_vii' target='#'><FaInstagram /></a>
-              <a href='https://www.linkedin.com/in/vikas-maurya-a969681ab' target='#'><FaLinkedinIn /></a>
             </span>
           </div>
         </div>

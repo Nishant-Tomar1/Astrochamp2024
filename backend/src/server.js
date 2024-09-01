@@ -30,9 +30,9 @@ connectToDb()
 
 
 // Routing 
-app.get('/', homepageMessage);
+app.get('/api/v1/', homepageMessage);
 
-app.post("/send-message", createMessage);
+app.post("/api/v1/send-message", createMessage);
 
-app.get("/all-messages", fetchMessages); 
+app.get("/api/v1/all-messages", fetchMessages); 
 

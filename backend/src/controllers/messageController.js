@@ -13,10 +13,11 @@ const fetchMessages = async (req, res) => {
 
 //Create a message
 const createMessage =  async (req, res) =>{
-    const {Name, email, message} = req.body ; 
-
+    const {name, email, message} = req.body ;  
+    // console.log(req.body); 
+    
     const msg = await Message.create({
-        Name,
+        name,
         email,
         message,
     });

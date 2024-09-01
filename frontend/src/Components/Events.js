@@ -10,6 +10,7 @@ import CosmoMath from "../Components/EventImages/cosmomath.jpeg";
 import Astrophotography from "../Components/EventImages/astrophography.jpg"
 import Cp from "../Components/EventImages/cp.png"
 import stargazing from "./EventImages/stargazing.jpeg"
+import exhibition from "./EventImages/exhibition.jpeg"
 
 function Events() {
   const [btn1state, setbtn1State] = useState(true);
@@ -150,7 +151,7 @@ by your rocket. It is a team event. Maximum 5 person per team are allowed. <br><
 <span className={Styles.SpecialText} >Date : </span> 29 September, 2024 |
 <span className={Styles.SpecialText} > Time : </span>09:00 am* |
 <span className={Styles.SpecialText} >  Mode : </span> Offline. <br /><br />
-<Link className={Styles.Registerbtn}  to="https://docs.google.com/forms/d/e/1FAIpQLScNHHIq-FlnbNPQUB9BH9sISeJ2EBnHcy5WdsJebz4r_Eh-MQ/viewform" target='blank' >Register Now ! </Link> <p><br /></p> <hr />
+<Link className={Styles.Registerbtn}  to="https://forms.gle/cteNDHDkrSnfiyNw5" target='blank' >Register Now ! </Link> <p><br /></p> <hr />
 <details className="dropdown" value=" Show Rules "> 
   <summary className=" text-orange-400 text-md pb-2" onClick={() => {setbtn3State(!btn3state)}} >{btn3state ? " Show Rules" : " Hide Rules"}</summary>
   
@@ -186,7 +187,7 @@ most amazing way possible!. It will be organized for both English and Hindi lang
 <span className={Styles.SpecialText} > Time : </span>06 : 00 pm* |
 <span className={Styles.SpecialText} >  Mode : </span> Offline. <br /><br />
 
-<Link className={Styles.Registerbtn}  to="https://forms.gle/eUpjy6DrzndP9uFf8" target='blank' >Register Now ! </Link> <p><br /></p><hr />
+<Link className={Styles.Registerbtn}  to="https://forms.gle/z7n79kqorhtwi9fcA" target='blank' >Register Now ! </Link> <p><br /></p><hr />
 <details className="dropdown" value=" Show Rules "> 
   <summary className=" text-orange-400 text-md pb-2" onClick={() => {setbtn5State(!btn5state)}} >{btn5state ? " Show Rules" : " Hide Rules"}</summary>
   
@@ -227,7 +228,7 @@ Submissions will be judged on the basis of creativity, vocabulary and realness o
 <span className={Styles.SpecialText} > Submittion Deadline : </span> 27 September, 2024* |
 <span className={Styles.SpecialText} >  Mode : </span> Online. <br /><br />
 
-<Link className={Styles.Registerbtn}  to="https://forms.gle/SShpuiEioYZ3dN9N9" target='blank' >Register Now ! </Link> <p><br /></p><hr />
+<Link className={Styles.Registerbtn}  to="https://forms.gle/pEXPSuSQ7D5uVphw6" target='blank' >Register Now ! </Link> <p><br /></p><hr />
 <details className="dropdown" value=" Show Rules "> 
   <summary className=" text-orange-400 text-md pb-2" onClick={() => {setbtn7State(!btn7state)}} >{btn7state ? " Show Rules" : " Hide Rules"}</summary>
   
@@ -348,7 +349,20 @@ Winners will be judged on highest score.<br />
 <span className={Styles.SpecialText} >  Mode : </span> Offline. <br /><br />
   </p>    
     </div>
-  </div>
+  
+{/* 
+  <div class="container mx-auto flex flex-col px-2  justify-center items-center">
+    <img class="lg:w-2/3 md:w-4/6 w-5/6 mb-6 border-1 border-orange-400 lg:object-contain object-center rounded h-64  " alt="" src={exhibition} />
+    <div class="w-full md:w-5/6 flex flex-col mb-16 px-4 items-center text-center">
+      <h1 class="title-font sm:text-4xl text-2xl mb-3 font-medium text-orange-400">9. NAKSHATRA X RISC EXHIBITION </h1>
+      <p class="mb-8 leading-relaxed text-md md:text-lg text-white-400">It is an open event organized by the Team NAKSHATRA where all the students and faculty of IIT Bhubaneshwar are invited to see the beautiful universe through our telescopes.. <br></br>
+<span className={Styles.SpecialText} >Date : </span> 28/29 September, 2024 |
+<span className={Styles.SpecialText} > Time : </span>09 : 00 pm |
+<span className={Styles.SpecialText} >  Mode : </span> Offline. <br /><br />
+  </p>    
+    </div>
+  </div> */}
+
 
 
 
@@ -364,6 +378,7 @@ Winners will be judged on highest score.<br />
   <div> Designed and developed by <a href="https://www.github.com/Nishant-Tomar1" target='#' style={{textDecoration:'none',color:'purple'}}>Nishant Tomar</a> (team Astro_Champ) </div>
 </div>
 
+</div>
 </div>
   
 

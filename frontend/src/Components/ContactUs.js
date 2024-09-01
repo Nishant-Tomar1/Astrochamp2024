@@ -10,7 +10,7 @@ function ContactUs() {
   const [btntext, setBtntext] = useState("Send");
   
   const [createForm, setCreateForm] = useState({
-    Name:"",
+    name:"",
     email:"",
     message:"",
   });
@@ -28,7 +28,7 @@ function ContactUs() {
     e.preventDefault();
     
     setTimeout(()=> {
-    setCreateForm({Name:"", email:"", message:""});
+    setCreateForm({name:"", email:"", message:""});
     setBtntext("Sent ✅");
     const btn = e.target.SubmitBtn;
     btn.disabled = true; 
@@ -44,7 +44,7 @@ function ContactUs() {
     });
     }, 500)
     
-    await axios.post("http://localhost:8000/send-message", createForm);
+    await axios.post("http://localhost:8000/api/v1/send-message", createForm);
 
   }catch(error){
     // console.log(error);
@@ -102,7 +102,7 @@ const variant = {
         <div className="p-2 w-full md:w-2/5">
           <div className="relative ">
             <label htmlFor="name" className="leading-7 text-gray-400 md:text-lg" >Name</label>
-            <input type="text" id="name" name="Name" value={createForm.Name} required onChange={updateCreateFormField}  className="w-full bg-transparent bg-opacity-0 border-2 rounded-xl  border-gray-600  focus:border-white focus:border-2 focus:ring-5 focus:ring-indigo-200 text-base outline-none text-white-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+            <input type="text" id="name" name="name" value={createForm.name} required onChange={updateCreateFormField}  className="w-full bg-transparent bg-opacity-0 border-2 rounded-xl  border-gray-600  focus:border-white focus:border-2 focus:ring-5 focus:ring-indigo-200 text-base outline-none text-white-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
           </div>
         </div>
         <div className="p-2 w-full md:w-3/5">

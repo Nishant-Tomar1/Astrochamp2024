@@ -167,41 +167,44 @@ function Home() {
 
     <div className="flex relative pb-10 md:pb-20 sm:items-center md:w-2/3 mx-auto">
       <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-        <div className="h-full w-1 bg-white pointer-events-none"></div>
-      </div>
-      <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-black text-white relative z-10 title-font font-medium text-sm border-1">7</div>
-      <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-        <div className="flex-shrink-0 w-24 h-24 bg-black text-white rounded-full inline-flex items-center justify-center border-2">
-          <IoTelescopeOutline  style={{fontSize: '60px'}}/>
-        </div>
-        <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 className="font-medium title-font text-purple-600 mb-1 text-4xl md:text-4xl">Stargazing</h2>
-          <p className="leading-relaxed text-lg lg:text-xl">An open event organized by the Team NAKSHATRA where all the students and faculty of IIT Bhubaneshwar are invited to see the beautiful universe through our telescopes.
-</p>
-        </div>
-      </div>
-    </div>
-
-
-    <div className="flex relative pb-10 md:pb-20 sm:items-center md:w-2/3 mx-auto">
-      <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
         <div className="h-full w-1 bg-white pointer-events-none "></div>
       </div>
-      <div className="flex-shrink-0 w-6 h-6 rounded-full mt-8 sm:mt-0 inline-flex items-center justify-center bg-black text-white relative z-10 title-font font-medium text-sm border-1">8</div>
+      <div className="flex-shrink-0 w-6 h-6 rounded-full mt-8 sm:mt-0 inline-flex items-center justify-center bg-black text-white relative z-10 title-font font-medium text-sm border-1">7</div>
       <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
         <div className="flex-shrink-0 w-24 h-24 bg-black text-white rounded-full inline-flex items-center justify-center border-2">
           <TbMathIntegrals style={{fontSize: '50px'}} />
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 className="font-medium title-font text-pink-700 mb-1 text-4xl md:text-4xl">Matho-Stellar</h2>
+          <h2 className="font-medium title-font text-purple-600 mb-1 text-4xl md:text-4xl">Matho-Stellar</h2>
           <p className="leading-relaxed text-lg lg:text-xl">Prepare for the liftoff with Matho-Stellar, a competition that combines your Cosmic curiosity with mathematical mastery ! </p>
-          <div >
-      <Link to="/events" style={{textDecoration:'none',color:'orange',fontSize:"1.2rem"}} onClick={()=>  window.scrollTo(0,0)}>Know More . . .  </Link>
-    </div>
+          
         </div>
 
       </div>
     </div>
+
+    <div className="flex relative pb-10 md:pb-20 sm:items-center md:w-2/3 mx-auto">
+      <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div className="h-full w-1 bg-white pointer-events-none"></div>
+      </div>
+      <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-black text-white relative z-10 title-font font-medium text-sm border-1">8</div>
+      <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div className="flex-shrink-0 w-24 h-24 bg-black text-white rounded-full inline-flex items-center justify-center border-2">
+          <IoTelescopeOutline  style={{fontSize: '60px'}}/>
+        </div>
+        <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 className="font-medium title-font text-pink-700 mb-1 text-4xl md:text-4xl">Stargazing</h2>
+          <p className="leading-relaxed text-lg lg:text-xl">An open event organized by the Team NAKSHATRA where all the students and faculty of IIT Bhubaneshwar are invited to see the beautiful universe through our telescopes.
+</p>
+<div >
+      <Link to="/events" style={{textDecoration:'none',color:'orange',fontSize:"1.2rem"}} onClick={()=>  window.scrollTo(0,0)}>Know More . . .  </Link>
+    </div>
+        </div>
+      </div>
+    </div>
+
+
+    
 
   </div>
 

@@ -22,7 +22,7 @@ function Routefunction() {
 
   return (
     
-    <AnimatePresence mode='wait'>
+    <AnimatePresence mode=''>
   
       <Navbar />
   
