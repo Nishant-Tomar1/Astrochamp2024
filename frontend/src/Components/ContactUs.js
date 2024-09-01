@@ -130,13 +130,13 @@ const variant = {
   {/* Footer */}
   <div className={Styles.FooterDiv} style={{color:'gray !important'}}>
 
-<div className='mb-1 font-xs md:text-2xl text-lg '>  Astro_Champ | Nakshatra, IITBBS </div> 
-<div className={Styles.FooterFont}> Dive into the cosmic adventure at AstroChamp 2024! Explore the universe through quizzes, art, science, and more. <br ></br> Join us in this celestial celebration!"<hr /></div>
+<div className='mb-1 font-xs md:text-2xl text-lg '>  AstroChamp | Nakshatra, IITBBS </div> 
+<div className={Styles.FooterFont}> Dive into the cosmic adventure at AstroChamp 2024! Explore the universe through quizzes, art, science, and more. <br ></br> Join us in this celestial celebration!<hr /></div>
 {/* <div style={{marginTop:"4px"}} className='md:text-xl'><span style={{color:"goldenrod"}}> Collaborations </span>: WebnD Society  </div> */}
 
 <div className={Styles.FooterEnd}> 
   <div>© Copyright 2024 | All rights Reserved </div>
-  <div> Designed and developed by <a href="https://www.github.com/Nishant-Tomar1" target='#' style={{textDecoration:'none',color:'purple'}}>Nishant Tomar</a> (team Astro_Champ) </div>
+  <div> Designed and developed by <a href="https://www.github.com/Nishant-Tomar1" target='#' style={{textDecoration:'none',color:'purple'}}>Nishant Tomar</a> (team AstroChamp) </div>
 </div>
 
 </div>

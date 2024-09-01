@@ -32,7 +32,7 @@ export default function Navbar() {
           <Link className = {Styles.NavlinkListElement} aria-current="page" to ="/" onClick={()=> window.scrollTo(0,0)}>Home</Link>
         </div>
         <div >
-          <Link className={Styles.NavlinkListElement} to ="/events" onClick={()=> window.scrollTo(0,0)}>AstroEvents</Link>
+          <Link className={Styles.NavlinkListElement} to ="/events" onClick={()=> window.scrollTo(0,0)}>Events</Link>
         </div>
         <div className="nav-item">
           <Link className={Styles.NavlinkListElement} to ="/team" onClick={()=> window.scrollTo(0,0)}>Our Team</Link>
@@ -41,7 +41,7 @@ export default function Navbar() {
           <Link className={Styles.NavlinkListElement} to ="/contactus" onClick={()=> window.scrollTo(0,0)}>Contact Us</Link>
         </div>
         <div className="nav-item">
-          <Link className={Styles.NavlinkListElement}  to="https://drive.google.com/file/d/1jUBQrOCHdUsMUWQx2gfrZwJflEzlGw1E/view?usp=sharing" target='blank' >Brochure</Link>
+          <Link className={Styles.NavlinkListElement}  to="https://drive.google.com/file/d/1bxzvGeCrCnR8PXc7JcnzU9KhTHD8Jkot/view?usp=sharing" target='blank' >Brochure</Link>
         </div> 
       </div>
     </div>

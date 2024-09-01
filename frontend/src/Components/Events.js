@@ -10,7 +10,7 @@ import CosmoMath from "../Components/EventImages/cosmomath.jpeg";
 import Astrophotography from "../Components/EventImages/astrophography.jpg"
 import Cp from "../Components/EventImages/cp.png"
 import stargazing from "./EventImages/stargazing.jpeg"
-import exhibition from "./EventImages/exhibition.jpeg"
+// import exhibition from "./EventImages/exhibition.jpeg"
 
 function Events() {
   const [btn1state, setbtn1State] = useState(true);
@@ -42,6 +42,14 @@ function Events() {
     <motion.div variants={variant} animate='entry' exit='exit' className='items-center justify-center'>
 
 <section class="text-gray-600 body-font ">
+
+  <div>
+    <div className="flex flex-col text-center w-full mt-32 px-5">
+        <h1 className="text-xxl font-bold title-font mb-3 tracking-wide md:text-5xl" style={{color:"goldenrod"}}>Register for all the events @349/- only</h1>
+        <div className='flex items-center w-full justify-center'> <Link className="text-xl px-4 py-2 rounded-full border-orange-400 border-1 text-orange-400 bg-black ease-in duration-300 hover:border-green-600 hover:text-green-400  text-decoration-none"  to="https://forms.gle/2Dd4UpLU3wuNBxFh7" target='blank' > Register Now ! </Link></div>
+    </div>
+  </div>
+
   
   <div class="container mx-auto flex flex-col  px-2 pt-24 lg:pt-24 justify-center items-center">
     <img class="lg:w-2/3 md:w-4/6 w-5/6  mb-6 border-1 border-orange-400 object-cover object-center rounded h-64" alt="" src={SpaceQuiz} />
@@ -369,13 +377,13 @@ Winners will be judged on highest score.<br />
   {/* Footer */}
 <div className={Styles.FooterDiv} style={{color:'gray !important'}}>
 
-<div className='mb-1 font-xs md:text-2xl text-lg '>  Astro_Champ | Nakshatra, IITBBS </div> 
-<div className={Styles.FooterFont}> Dive into the cosmic adventure at AstroChamp 2024! Explore the universe through quizzes, art, science, and more. <br ></br> Join us in this celestial celebration!"<hr /></div>
+<div className='mb-1 font-xs md:text-2xl text-lg '>  AstroChamp | Nakshatra, IITBBS </div> 
+<div className={Styles.FooterFont}> Dive into the cosmic adventure at AstroChamp 2024! Explore the universe through quizzes, art, science, and more. <br ></br> Join us in this celestial celebration!<hr /></div>
 {/* <div style={{marginTop:"4px"}} className='md:text-xl'><span style={{color:"goldenrod"}}> Collaborations </span>: WebnD Society  </div> */}
 
 <div className={Styles.FooterEnd}> 
   <div>© Copyright 2024 | All rights Reserved </div>
-  <div> Designed and developed by <a href="https://www.github.com/Nishant-Tomar1" target='#' style={{textDecoration:'none',color:'purple'}}>Nishant Tomar</a> (team Astro_Champ) </div>
+  <div> Designed and developed by <a href="https://www.github.com/Nishant-Tomar1" target='#' style={{textDecoration:'none',color:'purple'}}>Nishant Tomar</a> (team AstroChamp) </div>
 </div>
 
 </div>

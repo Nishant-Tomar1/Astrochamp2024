@@ -13,8 +13,15 @@ import webnd from "../Components/logos/webd.png";
 import abhivyakti from "../Components/logos/abhivyakti.png"
 import panacea from "../Components/logos/panacea.png";
 import quizsoc from "../Components/logos/quizsoc.png";
+import neuro from "../Components/logos/neuro.png"
+import risc from "../Components/logos/risc.png"
+import febs from "../Components/logos/febs.png"
+const images = require.context("../Components/glimpses",true);
+const glimpses = images.keys().map(image => images(image));
 
 function Home() {
+  console.log(glimpses);
+  
 
   const variant = {
     entry : {
@@ -59,7 +66,7 @@ function Home() {
 
           {/* Events */}
 
-          <div><span className={Styles.abouthead2}>EVENTS</span></div>
+          <div><span className={Styles.abouthead2}>AstroEvents</span></div>
 <section className="text-white body-font">
 
   <div className="container px-4 py-3  mx-auto flex flex-wrap">
@@ -176,7 +183,7 @@ function Home() {
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 className="font-medium title-font text-purple-600 mb-1 text-4xl md:text-4xl">Matho-Stellar</h2>
-          <p className="leading-relaxed text-lg lg:text-xl">Prepare for the liftoff with Matho-Stellar, a competition that combines your Cosmic curiosity with mathematical mastery ! </p>
+          <p className="leading-relaxed text-lg lg:text-xl">An online quiz type of event based on Non-Routine mathematics. It is a team event. Questions in the online quiz will be based on : Geometry , Algebra , Calculus , Number theory. </p>
           
         </div>
 
@@ -203,14 +210,31 @@ function Home() {
       </div>
     </div>
 
-
-    
-
   </div>
 
   <div className={Styles.prizepooldiv}>
     <div style={{color:"goldenrod"}}>Prize Pool :</div>
     <div > <FaRupeeSign style={{fontSize: "90%"}}/>25 K+</div>
+  </div>
+
+  {/* glimpses */}
+  <div>
+    <div className="flex flex-col text-center w-full mb-4">
+        <h1 className="text-xxl font-bold title-font mb-3 tracking-wide md:text-5xl" style={{color:"goldenrod"}}> <hr />Glimpses of Previous edition</h1>
+    </div>
+
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-5 mx-4 lg:px-12">
+    {
+      glimpses.map((image,index) => 
+      
+        <div key={index}>
+          <img className="h-auto max-w-full rounded-md" src={image} alt="img"/>
+        </div>
+      
+      )
+    }
+      
+    </div>
   </div>
 
 
@@ -225,9 +249,12 @@ function Home() {
       <div className={Styles.logos}><img src={panacea} alt="" />Panacea</div>
       <div className={Styles.logos}><img src={abhivyakti} alt="" />अभिव्यक्ति</div>
       <div className={Styles.logos}><img src={quizsoc} alt="" />Quiz Society</div>
-      
-      
-      </div></div>
+      <div className={Styles.logos}><img src={neuro} alt="" />NeuroMancers</div>
+      <div className={Styles.logos}><img src={risc} alt="" />RISC</div>
+      <div className={Styles.logos}><img src={febs} alt="" />FEBS</div> 
+    </div>
+    
+  </div>
   
 
 </section> 
@@ -237,12 +264,12 @@ function Home() {
     {/* Footer */}
     <div className={Styles.FooterDiv} style={{color:'gray !important'}}>
 
-      <div className='mb-1 font-xs md:text-2xl text-lg '>  Astro_Champ | Nakshatra, IITBBS </div> 
-      <div className={Styles.FooterFont}> Dive into the cosmic adventure at AstroChamp 2024! Explore the universe through quizzes, art, science, and more. <br ></br> Join us in this celestial celebration!"<hr /></div>
+      <div className='mb-1 font-xs md:text-2xl text-lg '>  AstroChamp | Nakshatra, IITBBS </div> 
+      <div className={Styles.FooterFont}> Dive into the cosmic adventure at AstroChamp 2024! Explore the universe through quizzes, art, science, and more. <br ></br> Join us in this celestial celebration!<hr /></div>
       
       <div className={Styles.FooterEnd}> 
         <div>© Copyright 2024 | All rights Reserved </div>
-        <div> Designed and developed by <a href="https://www.github.com/Nishant-Tomar1" target='#' style={{textDecoration:'none',color:'purple'}}>Nishant Tomar</a> (team Astro_Champ) </div>
+        <div> Designed and developed by <a href="https://www.github.com/Nishant-Tomar1" target='#' style={{textDecoration:'none',color:'purple'}}>Nishant Tomar</a> (team AstroChamp) </div>
       </div>
 
     </div>

@@ -1,5 +1,5 @@
 import {useState } from 'react';
-import { FaInstagram ,FaLinkedinIn} from "react-icons/fa";
+import { FaInstagram ,FaLinkedinIn, FaPhoneAlt} from "react-icons/fa";
 import Styles from '../Styles/Home.module.css';
 import { AnimatePresence, motion, useAnimationControls } from 'framer-motion';
 const images = require.context("../Components/Team",true);
@@ -8,11 +8,13 @@ const imageList = images.keys().map(image => images(image));
 
 
 function Team() {
+  // console.log(imageList);
+  
 
   const [showmorebtn, setShowmoreBtn] = useState(false);
   const control = useAnimationControls();
-  const associates = ["Kunal", "Sudhanshu Jha", "Swastik Panda", "Spandan Satapathy","Jahnavi K", "Sreenadh Vajrala"];
-  const ass2 = [ "Ramya Sri Vanjarapu", "Gagan Gupta","Shashank M N","Haripriya","Dumpala Venkata Mohith","Mhendra Reddy","Srinithya Reddy","Ayush Mittal","B Ganesh", "Hrishikesh Gathphane", "K Varshit", "Bibhu Biswajit Jena", "Sudha Godhani", "Sohan Bhattacharjya", "Ashis V"];
+  const associates = ["Srujan Eda", "Palash Jain", "Ranjita Patra", "Leena Malavika","Ashu", "Harshita"];
+  const ass2 = ["Sita Mahalakshmi","Burra Sai Nitya","Mathicharan","Priyanshu Gupta","Adarsh Tiwari","Abhijnani","Shikha Kumari","Shiva Abhijeet","Hashi","Riya Gupta","Lakshya Kumar","Priya Mehta","Saran Teja","Nikhil Gaur","Abhinav","Manan Sharma","Shrish Raynell","Sarada Prasanna Das"];
 
   const variant = {
     entry : {
@@ -69,13 +71,14 @@ const variant1 = {
 
     <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-center justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[9]}></img>
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[2]}></img>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-xl text-orange-500">Het Sarsava</h2>
             <h3 className="text-gray-500 mb-3 text-lg">Secretary</h3>
-            <span className="inline-flex text-white text-lg gap-2">
+            <span className="inline-flex text-white text-lg gap-3">
               <a href='https://www.instagram.com/hetsarsava' target='#'><FaInstagram /></a>
               <a href='https://www.linkedin.com/in/het-sarsava-3982a5260' target='#'><FaLinkedinIn /></a>
+              <a href='tel:+916352510809'><FaPhoneAlt /></a>
             </span>
           </div>
         </div>
@@ -84,13 +87,14 @@ const variant1 = {
 
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[18]} ></img>
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[1]} ></img>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-xl text-orange-500">Harsh Sharma</h2>
             <h3 className="text-gray-500 mb-3 text-lg">Governor</h3>
-            <span className="inline-flex text-white text-lg gap-2">
+            <span className="inline-flex text-white text-lg gap-3">
               <a href='https://www.instagram.com/harshsharma_.26' target='#'><FaInstagram /></a>
               <a href='https://www.linkedin.com/in/harsh-sharma-54554a232' target="#"><FaLinkedinIn /></a>
+              <a href='tel:+91 7039401108'><FaPhoneAlt /></a>
             </span>
           </div>
         </div>
@@ -99,13 +103,14 @@ const variant1 = {
 
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-center justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[7]}></img>
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[4]}></img>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-xl text-orange-500">Nishant Tomar</h2>
             <h3 className="text-gray-500 mb-3 text-lg">Governor</h3>
-            <span className="inline-flex text-white text-lg gap-2">
+            <span className="inline-flex text-white text-lg gap-3">
               <a href='https://www.instagram.com/myself_nishant' target='#'><FaInstagram /></a>
               <a href='https://www.linkedin.com/in/nishant-tomar-7694aa2aa/' target='#'><FaLinkedinIn /></a>
+              <a href='tel:+91 8920481815'><FaPhoneAlt /></a>
             </span>
           </div>
         </div>
@@ -113,13 +118,14 @@ const variant1 = {
 
   <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-center justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[14]}></img>
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[0]}></img>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-xl text-orange-500">Doddi Bhavya</h2>
             <h3 className="text-gray-500 mb-3 text-lg">Governor</h3>
-            <span className="inline-flex text-white text-lg gap-2">
+            <span className="inline-flex text-white text-lg gap-3">
               <a href='https://www.instagram.com/bhavya__0901' target='#'><FaInstagram /></a>
               <a href='https://www.linkedin.com/in/bhavya-doddi-993b60255'  target='#'><FaLinkedinIn /></a>
+              <a href='tel:+91 7386701066'><FaPhoneAlt /></a>
             </span>
           </div>
         </div>
@@ -128,45 +134,48 @@ const variant1 = {
       
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[13]} ></img>
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[7]} ></img>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-xl text-orange-500">Yash Goyal</h2>
             <h3 className="text-gray-500 mb-3 text-lg">Events Manager</h3>
-            <span className="inline-flex text-white text-lg gap-2">
+            <span className="inline-flex text-white text-lg gap-3">
               <a href='https://www.instagram.com/_im_ag_ine' target='#'><FaInstagram /></a>
               <a href='https://www.linkedin.com/in/yash-goyal-686405294' target='#'><FaLinkedinIn /></a>
+              <a href='tel:+91 7877721462'><FaPhoneAlt /></a>
             </span>
           </div>
         </div>
       </div>
 
 
-      <div className="p-4 lg:w-1/2">
+      {/* <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[19]} ></img>
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[0]} ></img>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-xl text-orange-500">Spandan Satapathy</h2>
             <h3 className="text-gray-500 mb-3 text-lg">POC : Space Quiz</h3>
-            <span className="inline-flex text-white text-lg gap-2">
+            <span className="inline-flex text-white text-lg gap-3">
               <a href='' target='#'><FaInstagram /></a>
               <a href='' target='#'><FaLinkedinIn /></a>
+              <a href='tel:08920481815'><FaPhoneAlt /></a>
             </span>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
 
 
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[10]}></img>
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[8]}></img>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-xl text-orange-500">Yuvraj Singh</h2>
             <h3 className="text-gray-500 mb-3 text-lg">POC : Asteroid Venture</h3>
-            <span className="inline-flex text-white text-lg gap-2">
+            <span className="inline-flex text-white text-lg gap-3">
               <a href='https://www.instagram.com/yuvee_53' target='#'><FaInstagram /></a>
               <a href='https://www.linkedin.com/in/yuvee1907' target='#'><FaLinkedinIn /></a>
+              <a href='tel:+91 7091708504'><FaPhoneAlt /></a>
             </span>
           </div>
         </div>
@@ -174,13 +183,14 @@ const variant1 = {
 
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[17]}></img>
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[6]}></img>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-xl text-orange-500">Sudhanshu Jha</h2>
             <h3 className="text-gray-500 mb-3 text-lg">POC : Blast Off</h3>
-            <span className="inline-flex text-white text-lg gap-2">
+            <span className="inline-flex text-white text-lg gap-3">
               <a href='https://www.instagram.com/sudhanshujha624/' target='#'><FaInstagram /></a>
               <a href='https://www.linkedin.com/in/sudhanshu-jha-4507a4288/' target='#'><FaLinkedinIn /></a>
+              <a href='tel:+91 7289025381'><FaPhoneAlt /></a>
             </span>
           </div>
         </div>
@@ -188,41 +198,44 @@ const variant1 = {
 
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[20]}></img>
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[5]}></img>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-xl text-orange-500">Piyush Kashyap</h2>
             <h3 className="text-gray-500 mb-3 text-lg">POC : Starborn Sagas</h3>
-            <span className="inline-flex text-white text-lg gap-2">
+            <span className="inline-flex text-white text-lg gap-3">
               <a href='https://www.instagram.com/piyushkashyap650' target='#'><FaInstagram /></a>
               <a href='https://www.linkedin.com/in/piyush-kashyap-73a5692a6' target='#'><FaLinkedinIn /></a>
+              <a href='tel:+91 9827871224'><FaPhoneAlt /></a>
             </span>
           </div>
         </div>
       </div>
 
-      <div className="p-4 lg:w-1/2">
+      {/* <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
           <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[10]}></img>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-xl text-orange-500">Ramya Sri Vanjarapu</h2>
             <h3 className="text-gray-500 mb-3 text-lg">POC : Competitive Programming</h3>
-            <span className="inline-flex text-white text-lg gap-2">
+            <span className="inline-flex text-white text-lg gap-3">
               <a href='https://www.instagram.com/_kumaneko24' target='#'><FaInstagram /></a>
               <a href='https://www.linkedin.com/in/bibhushree-mahapatra-935a63258' target='#'><FaLinkedinIn /></a>
+              <a href='tel:08920481815'><FaPhoneAlt /></a>
             </span>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[17]}></img>
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={imageList[3]}></img>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-xl text-orange-500">Kunal</h2>
             <h3 className="text-gray-500 mb-3 text-lg">POC : Math-O-Stellar</h3>
-            <span className="inline-flex text-white text-lg gap-2">
-              <a href='https://www.instagram.com/nobel_das' target='#'><FaInstagram /></a>
-              <a href='https://www.linkedin.com/in/nobel-das-2a74a828b' target='#'><FaLinkedinIn /></a>
+            <span className="inline-flex text-white text-lg gap-3">
+              <a href='https://www.instagram.com/me_kunal_12' target='#'><FaInstagram /></a>
+              <a href='https://www.linkedin.com/in/kunal-singh-5675b929a' target='#'><FaLinkedinIn /></a>
+              <a href='tel:+91 8708563650'><FaPhoneAlt /></a>
             </span>
           </div>
         </div>
@@ -271,14 +284,14 @@ const variant1 = {
     {/* Footer */}
     <div className={Styles.FooterDiv} style={{color:'gray !important',marginLeft:'2.5vw'}}>
 
-      <div className='mb-1 font-xs md:text-2xl text-lg '> Astro_Champ | Nakshatra, IITBBS </div>
-      <div className={Styles.FooterFont}> Dive into the cosmic adventure at AstroChamp 2024! Explore the universe through quizzes, art, science, and more. <br ></br> Join us in this celestial celebration!" <hr /></div> 
+      <div className='mb-1 font-xs md:text-2xl text-lg '> AstroChamp | Nakshatra, IITBBS </div>
+      <div className={Styles.FooterFont}> Dive into the cosmic adventure at AstroChamp 2024! Explore the universe through quizzes, art, science, and more. <br ></br> Join us in this celestial celebration! <hr /></div> 
       {/* <div style={{marginTop:"4px"}} className='md:text-xl'><span style={{color:"goldenrod"}} > Collaborations </span>: WebnD Society  </div> */}
 
 
       <div className={Styles.FooterEnd}> 
         <div>© Copyright 2024 | All rights Reserved </div>
-        <div> Designed and developed by <a href="https://www.github.com/Nishant-Tomar1" target='#' style={{textDecoration:'none',color:'purple'}}>Nishant Tomar</a> (team Astro_Champ) </div>
+        <div> Designed and developed by <a href="https://www.github.com/Nishant-Tomar1" target='#' style={{textDecoration:'none',color:'purple'}}>Nishant Tomar</a> (team AstroChamp) </div>
       </div>
 
     </div>
