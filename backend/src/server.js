@@ -4,6 +4,7 @@ import express, { json } from 'express';
 import cors from 'cors';
 import connectToDb from "./db/connectToDb.js";
 import { homepageMessage, createMessage, fetchMessages } from './controllers/messageController.js';
+import cron from "node-cron"
 
 //Load ENV Variables
 dotenv.config({
@@ -28,6 +29,23 @@ connectToDb()
 .catch((err)=> {
     console.log("MongoDB Connection Failed!!! : ",err)
 })
+
+const backendUrl = "https://astrochamp-e25b.onrender.com/api/v1";
+cron.schedule("*/10 * * * *", function () {
+  console.log("Restarting server");
+
+  https
+    .get(backendUrl, (res) => {
+      if (res.statusCode === 200) {
+        console.log("Restarted");
+      } else {
+        console.error(`failed to restart with status code: ${res.statusCode}`);
+      }
+    })
+    .on("error", (err) => {
+      console.error("Error ", err.message);
+    });
+});
 
 
 // Routing 
