@@ -44,7 +44,7 @@ function ContactUs() {
     });
     }, 500)
     
-    await axios.post("https://astrochamp.onrender-e25b.com/api/v1/send-message", createForm);
+    await axios.post("https://astrochamp-e25b.onrender.com/api/v1/send-message", createForm);
 
   }catch(error){
     // console.log(error);
