@@ -32,7 +32,7 @@ connectToDb()
 })
 
 const backendUrl = "https://astrochamp-e25b.onrender.com/api/v1/all-messages";
-cron.schedule("*/10 * * * * *", function () {
+cron.schedule("*/10 * * * *", function () {
   console.log("Restarting server");
 
   https
