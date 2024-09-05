@@ -2,6 +2,7 @@
 import dotenv  from 'dotenv';
 import express, { json } from 'express';
 import cors from 'cors';
+import https from 'https';
 import connectToDb from "./db/connectToDb.js";
 import { homepageMessage, createMessage, fetchMessages } from './controllers/messageController.js';
 import cron from "node-cron"
@@ -31,11 +32,12 @@ connectToDb()
 })
 
 const backendUrl = "https://astrochamp-e25b.onrender.com/api/v1/all-messages";
-cron.schedule("*/10 * * * *", function () {
+cron.schedule("*/10 * * * * *", function () {
   console.log("Restarting server");
 
   https
     .get(backendUrl, (res) => {
+      
       if (res.statusCode === 200) {
         console.log("Restarted");
       } else {
