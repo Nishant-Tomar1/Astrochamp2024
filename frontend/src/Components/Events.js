@@ -10,7 +10,7 @@ import CosmoMath from "../Components/EventImages/cosmomath.jpeg";
 import Astrophotography from "../Components/EventImages/astrophography.jpg"
 import Cp from "../Components/EventImages/cp.png"
 import stargazing from "./EventImages/stargazing.jpeg"
-// import exhibition from "./EventImages/exhibition.jpeg"
+import exhibition from "./EventImages/exhibition.jpg"
 
 function Events() {
   const [btn1state, setbtn1State] = useState(true);
@@ -354,22 +354,24 @@ Winners will be judged on highest score.<br />
       <p class="mb-8 leading-relaxed text-md md:text-lg text-white-400">It is an open event organized by the Team NAKSHATRA where all the students and faculty of IIT Bhubaneshwar are invited to see the beautiful universe through our telescopes.. <br></br>
 <span className={Styles.SpecialText} >Date : </span> 28/29 September, 2024 |
 <span className={Styles.SpecialText} > Time : </span>09 : 00 pm |
-<span className={Styles.SpecialText} >  Mode : </span> Offline. <br /><br />
+<span className={Styles.SpecialText} >  Mode : </span> Offline (SAC) <br /><br />
   </p>    
     </div>
   
-{/* 
+
   <div class="container mx-auto flex flex-col px-2  justify-center items-center">
     <img class="lg:w-2/3 md:w-4/6 w-5/6 mb-6 border-1 border-orange-400 lg:object-contain object-center rounded h-64  " alt="" src={exhibition} />
     <div class="w-full md:w-5/6 flex flex-col mb-16 px-4 items-center text-center">
       <h1 class="title-font sm:text-4xl text-2xl mb-3 font-medium text-orange-400">9. NAKSHATRA X RISC EXHIBITION </h1>
-      <p class="mb-8 leading-relaxed text-md md:text-lg text-white-400">It is an open event organized by the Team NAKSHATRA where all the students and faculty of IIT Bhubaneshwar are invited to see the beautiful universe through our telescopes.. <br></br>
-<span className={Styles.SpecialText} >Date : </span> 28/29 September, 2024 |
-<span className={Styles.SpecialText} > Time : </span>09 : 00 pm |
-<span className={Styles.SpecialText} >  Mode : </span> Offline. <br /><br />
+      <p class="mb-8 leading-relaxed text-md md:text-lg text-white-400">The Robotics and Intelligent Systems Club (RISC) is gearing up to present their ISRO Rover project at Nakshatra's upcoming AstroChamp event. RISC's participation is particularly exciting, as they will be showcasing the ISRO Rover, a project that demonstrates their commitment to pushing the boundaries of robotics. <br />
+
+The ISRO Rover, developed by RISC members, is designed to explore and simulate real-world space missions, aligning perfectly with the event’s focus. This is a unique opportunity for attendees to experience the convergence of robotics and space exploration. The ISRO Rover is set to be a highlight of the event, showcasing the innovative spirit and technical expertise of RISC. Be sure to catch this exciting display at AstroChamp! <br></br>
+<span className={Styles.SpecialText} >Date : </span> 28 September, 2024 |
+<span className={Styles.SpecialText} > Time : </span>Afternoon |
+<span className={Styles.SpecialText} >  Mode : </span> Offline at SAC <br /><br />
   </p>    
     </div>
-  </div> */}
+  </div>
 
 
 

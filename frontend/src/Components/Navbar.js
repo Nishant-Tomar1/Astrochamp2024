@@ -3,7 +3,7 @@ import Styles from "../Styles/Navbar.module.css"
 import {Link} from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaArrowUp } from "react-icons/fa";
-import logo from "../Components/logos/Astrologo.png";
+import logo from "../Components/logos/NakshatraLogo.png";
 
 
 

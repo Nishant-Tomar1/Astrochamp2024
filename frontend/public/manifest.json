@@ -3,17 +3,17 @@
   "name": "AstroChamp : Astronomy fest of IIT Bhubaneswar",
   "icons": [
     {
-      "src": "Astrologo.png",
+      "src": "NakshatraLogo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "Astrologo.png",
+      "src": "NakshatraLogo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "Astrologo.png",
+      "src": "NakshatraLogo.png",
       "type": "image/png",
       "sizes": "512x512"
     }

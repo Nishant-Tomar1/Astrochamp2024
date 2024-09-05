@@ -10,11 +10,12 @@ import { MdOutlineCamera } from "react-icons/md";
 import { FaLaptopCode } from "react-icons/fa6";
 import { IoTelescopeOutline } from "react-icons/io5";
 // import webnd from "../Components/logos/webd.png";
+import { MdOutlineEventAvailable } from "react-icons/md";
 import abhivyakti from "../Components/logos/abhivyakti.png"
 import panacea from "../Components/logos/panacea.png";
 import quizsoc from "../Components/logos/quizsoc.png";
 import neuro from "../Components/logos/neuro.png"
-// import risc from "../Components/logos/risc.png"
+import risc from "../Components/logos/risc.png"
 import febs from "../Components/logos/febs.png"
 const images = require.context("../Components/glimpses",true);
 const glimpses = images.keys().map(image => images(image));
@@ -192,16 +193,36 @@ function Home() {
 
     <div className="flex relative pb-10 md:pb-20 sm:items-center md:w-2/3 mx-auto">
       <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-        <div className="h-full w-1 bg-white pointer-events-none"></div>
+        <div className="h-full w-1 bg-white pointer-events-none "></div>
       </div>
-      <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-black text-white relative z-10 title-font font-medium text-sm border-1">8</div>
+      <div className="flex-shrink-0 w-6 h-6 rounded-full mt-8 sm:mt-0 inline-flex items-center justify-center bg-black text-white relative z-10 title-font font-medium text-sm border-1">8</div>
       <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
         <div className="flex-shrink-0 w-24 h-24 bg-black text-white rounded-full inline-flex items-center justify-center border-2">
           <IoTelescopeOutline  style={{fontSize: '60px'}}/>
+         
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 className="font-medium title-font text-pink-700 mb-1 text-4xl md:text-4xl">Stargazing</h2>
-          <p className="leading-relaxed text-lg lg:text-xl">An open event organized by the Team NAKSHATRA where all the students and faculty of IIT Bhubaneshwar are invited to see the beautiful universe through our telescopes.
+          <p className="leading-relaxed text-lg lg:text-xl"> An open event organized by the Team NAKSHATRA where all the students and faculty of IIT Bhubaneshwar are invited to see the beautiful universe through our telescopes.</p>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div className="flex relative pb-10 md:pb-20 sm:items-center md:w-2/3 mx-auto">
+      <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div className="h-full w-1 bg-white pointer-events-none"></div>
+      </div>
+      <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-black text-white relative z-10 title-font font-medium text-sm border-1">9</div>
+      <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div className="flex-shrink-0 w-24 h-24 bg-black text-white rounded-full inline-flex items-center justify-center border-2">
+          <MdOutlineEventAvailable style={{fontSize: '50px'}} />
+        </div>
+        <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 className="font-medium title-font text-purple-600 mb-1 text-4xl md:text-4xl"> Exhibition</h2>
+          <p className="leading-relaxed text-lg lg:text-xl">
+          The Robotics and Intelligent Systems Club (RISC), in collaboration with Nakshatra IITBBS, is gearing up to present their ISRO Rover project at Nakshatra's upcoming AstroChamp event.
 </p>
 <div >
       <Link to="/events" style={{textDecoration:'none',color:'orange',fontSize:"1.2rem"}} onClick={()=>  window.scrollTo(0,0)}>Know More . . .  </Link>
@@ -250,7 +271,7 @@ function Home() {
       <div className={Styles.logos}><img src={abhivyakti} alt="" />अभिव्यक्ति</div>
       <div className={Styles.logos}><img src={quizsoc} alt="" />Quiz Society</div>
       <div className={Styles.logos}><img src={neuro} alt="" />NeuroMancers</div>
-      {/* <div className={Styles.logos}><img src={risc} alt="" />RISC</div> */}
+      <div className={Styles.logos}><img src={risc} alt="" />RISC</div>
       <div className={Styles.logos}><img src={febs} alt="" />FEBS</div> 
     </div>
     
