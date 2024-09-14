@@ -18,7 +18,7 @@ export default function Navbar() {
   <motion.nav className="navbar fixed-top navbar-expand-lg navbar-dark  bg-transparent">
   { <div   className={`${Styles.Stickybtn}`} onClick={()=> window.scrollTo(0,0)}>  <button > <FaArrowUp /> </button></div> }
     <div className="container-fluid " >
-    <Link className="d-flex navbar-brand head fs-2 fw-bold px-2 ps-md-4 Head " to =""> <img style={{width:"1.4em",height:"1.4em",margin:"1px 4px 2px 0px",borderRadius:"50%"}} src={logo} alt="logo"/>AstroChamp 2024 </Link>
+    <Link className="d-flex navbar-brand head fs-2 fw-bold px-2 ps-md-4 Head " to =""> <img style={{width:"1.4em",height:"1.4em",margin:"1px 4px 2px 0px",borderRadius:"50%"}} src={logo} alt="logo"/>AstroChamp</Link>
 
     <button className={`closer1 navbar-toggler ${Styles.Toggler}`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

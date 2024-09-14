@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.add6f357.css",
-    "main.js": "/static/js/main.561501ee.js",
+    "main.js": "/static/js/main.d615ddbc.js",
     "static/media/Homepagebg.jpg": "/static/media/Homepagebg.b5fdd67f8894893189aa.jpg",
     "static/media/Copy of Event Sample 1_147.jpg": "/static/media/Copy of Event Sample 1_147.2294690c9f7e61a6427f.jpg",
     "static/media/NakshatraLogo.png": "/static/media/NakshatraLogo.ce7b9abee60d753274ea.png",
@@ -46,10 +46,10 @@
     "static/media/neuro.png": "/static/media/neuro.219a8b21ad119e4b3bd8.png",
     "index.html": "/index.html",
     "main.add6f357.css.map": "/static/css/main.add6f357.css.map",
-    "main.561501ee.js.map": "/static/js/main.561501ee.js.map"
+    "main.d615ddbc.js.map": "/static/js/main.d615ddbc.js.map"
   },
   "entrypoints": [
     "static/css/main.add6f357.css",
-    "static/js/main.561501ee.js"
+    "static/js/main.d615ddbc.js"
   ]
 }

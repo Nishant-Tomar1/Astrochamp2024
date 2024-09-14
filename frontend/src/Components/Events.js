@@ -45,8 +45,9 @@ function Events() {
 
   <div>
     <div className="flex flex-col text-center w-full mt-32 px-5">
-        <h1 className="text-xxl font-bold title-font mb-3 tracking-wide md:text-5xl" style={{color:"goldenrod"}}>Register for all the events @349/- only</h1>
-        <div className='flex items-center w-full justify-center'> <Link className="text-xl px-4 py-2 rounded-full border-orange-400 border-1 text-orange-400 bg-black ease-in duration-300 hover:border-green-600 hover:text-green-400  text-decoration-none"  to="https://forms.gle/2Dd4UpLU3wuNBxFh7" target='blank' > Register Now ! </Link></div>
+        <h1 className="text-2xl font-bold title-font mb-3 tracking-wide md:text-5xl" style={{color:"goldenrod"}}>Register for all the events @349/- only</h1>
+        <h4 className="text-sm font-bold title-font mb-3 tracking-wide md:text-xl" style={{color:"goldenrod"}}>Note : Registration is free for IITBBS people for all the events.</h4>
+        <div className='flex items-center w-full justify-center'> <Link className="text-md lg:text-lg px-4 py-2 rounded-full border-orange-400 border-1 text-orange-400 bg-black ease-in duration-300 hover:border-green-600 hover:text-green-400  text-decoration-none"  to="https://forms.gle/2Dd4UpLU3wuNBxFh7" target='blank' > Register Now ! </Link></div>
     </div>
   </div>
 
