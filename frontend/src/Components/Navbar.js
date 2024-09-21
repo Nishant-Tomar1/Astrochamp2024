@@ -43,6 +43,9 @@ export default function Navbar() {
         <div className="nav-item">
           <Link className={Styles.NavlinkListElement}  to="https://drive.google.com/file/d/1bxzvGeCrCnR8PXc7JcnzU9KhTHD8Jkot/view?usp=sharing" target='blank' >Brochure</Link>
         </div> 
+        <div className="nav-item">
+          <Link className={Styles.NavlinkListElement}  to="https://drive.google.com/file/d/1sKy0iGZallQoWKgqgh8WAxm4X7175a84/view?usp=sharing" target='blank' >Rulebook</Link>
+        </div> 
       </div>
     </div>
   </div>
